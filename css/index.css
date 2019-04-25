@@ -1,0 +1,78 @@
+/* 头部 */
+.nav {
+  display: flex;
+  height: 84px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 20px;
+  color: #727272;
+}
+.nav .mark {
+  width: 165px;
+  height: 34px;
+}
+.nav .phone {
+  width: 25px;
+  height: 25px;
+}
+
+/* 合同 */ 
+.contract .cttTop,
+.contract .cttBottom {
+  padding: 15px 0;
+  overflow: hidden;
+}
+.contract .cttbox {
+  width: 20%;
+  box-sizing: border-box;
+  border-right: 1px solid #ECECEC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: left;
+}
+.contract .cttlast {
+  border-right: none;
+}
+.contract .cttbox img {
+  width: 22px;
+}
+/* 合同维权 */
+.sfrtContent .step {
+  padding: 20px;
+  height: 200px;
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 45% 10% 45%;
+}
+.sfrtContent .everyStep {
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  border-radius: 4px;
+  align-items: center;
+  box-shadow: 0 8px 20px 0 rgba(0,0,0,0.50);
+}
+.sfrtContent .strpNum {
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  background: url(../images/hexagon.png) no-repeat;
+  background-size: 30px;
+}
+.sfrtContent .everyStep > img {
+  width: 23px;
+  height: 20px;
+}
+.sfrtContent .arrows {
+  background-color: yellow;
+}
+
