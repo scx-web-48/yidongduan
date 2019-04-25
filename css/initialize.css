@@ -35,3 +35,6 @@ a:hover {
 img {
     vertical-align: middle;
 }
+* {
+    font-family: PingFangSC-Medium;
+}
