@@ -1,7 +1,7 @@
 /* 头部 */
 .nav {
   display: flex;
-  height: 84px;
+  height: 70px;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
@@ -61,7 +61,7 @@
   width: 95%;
   padding: 5px 0;
   min-width: 140px;
-  height: 20px;
+  height: 30px;
   background-color: #fff;
   display: flex;
   position: absolute;
@@ -78,7 +78,7 @@
   width: 95%;
   padding: 5px 0;
   min-width: 140px;
-  height: 20px;
+  height: 30px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 2px;
   position: absolute;
@@ -108,6 +108,9 @@
   width: 23px;
   height: 20px;
   margin-right: 5px;
+}
+.sfrtContent .stepContent span {
+  margin-top: 5px;
 }
 .sfrtContent .arrows {
   display: flex;
@@ -211,10 +214,12 @@
 /* 律师介绍 */
 .introduce {
   padding: 0 10px;
+  height: 500px;
+  overflow: hidden;
 }
 .introduce .swiper-container {
   width: 100%;
-  height: 350px;
+  height: 360px;
   overflow: visible;
 }
 .swiper-container .swiper-slide {
@@ -223,7 +228,7 @@
   padding: 15px;
   box-sizing: border-box;
   background: #FFFFFF;
-  box-shadow: 8px 12px 45px 0 rgba(155,155,155,0.20);
+  box-shadow: 5px 5px 16px 0 rgba(155,155,155,0.20);
 }
 .introduce .introduce-img {
   background: no-repeat;
@@ -249,4 +254,194 @@
   font-size: 14px;
   color: #8E9CA9;
   text-align: justify;
+}
+
+/* 成功案例 */
+.successful .successful-box {
+  width: 90%;
+  height: 100px;
+  margin: 15px auto;
+  padding: 10px;
+  position: relative;
+  box-shadow: 5px 5px 16px 0 rgba(155,155,155,0.20);
+}
+.successful .successful-img {
+  position: absolute;
+}
+.successful .successful-img img {
+  width: 130px;
+  height: 80px;
+}
+.successful .successful-content {
+  position: absolute;
+  left: 150px;
+  right: 0;
+  box-sizing: border-box;
+}
+.successful .successful-content .successful-title {
+  margin: 0;
+  height: 20px;
+  width: 100%;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.successful .successful-text {
+  margin: 5px 0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+}
+.successful .successful-content span {
+  color: #8E9CA9;
+}
+.successful .successful-btn .suf-btn {
+  width: 150px;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #EA2734;
+}
+.successful .successful-btn .suf-btn img {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.successful .successful-btn span {
+  line-height: 35px;
+  color: #fff;
+}
+/* 底部 */ 
+div.search {margin: 15px 0;}  
+.bar1 .form-inp {  
+    position: relative;  
+    width: 300px;  
+    margin: 0 auto;  
+}  
+input, button, textarea {  
+    border: none;  
+    outline: none;  
+}  
+input {  
+    width: 100%;  
+    height: 35px;  
+    padding-left: 13px;  
+    padding-right:46px;  
+}
+.no-clear-inp {
+  padding-right: 13px;
+}
+button {  
+    height: 35px;  
+    width: 42px;  
+    cursor: pointer;  
+    position: absolute; 
+    background: rgba(255,255,255,0);
+} 
+.bar1 input {
+    border-radius: 5px;
+    color: #fff;  
+    background: rgba(255,255,255,0);
+}
+.bar1 button {  
+    top: 0;  
+    right: 0;
+    background: rgba(255,255,255,0);
+    border-radius: 0 5px 5px 0;
+}
+.bar1 button img {
+  width: 20px;
+}
+.bar1 {
+  background: rgba(255,255,255,0);
+}
+.bar1 .form-inp {
+  width: 80%;
+  background: rgba(255,255,255,0.10);
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.foot-inp {
+  background: url(../images/联系我们背景@3x.png) no-repeat;
+  background-size: 100%;
+  height: 257px;
+  overflow: hidden;
+}
+.bar1 .form-area textarea {
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0);
+  border: none;
+  padding-left: 13px;
+  padding-top: 5px;
+  padding-bottom: 17px;
+}
+.form-area div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #EA2734;
+  line-height: 40px;
+}
+.form-area div img {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+.foot-introduce {
+  height: 418px;
+  background: url(../images/背景@3x.png) no-repeat;
+  background-size: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.foot-introduce h4 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.foot-introduce h5 {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.foot-introduce h5 img {
+  width: 20px;
+  margin-top: -5px;
+}
+.foot-introduce p {
+  color: #8E9CA9;
+  font-size: 12px;
+}
+.foot-records {
+  position: relative;
+  height: 50px;
+  background: #2E2E40;
+  text-align: center;
+  font-size: 12px;
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+.foot-records .foot-top {
+  width: 40px;
+  height: 20px;
+  border-radius:100px 100px 0 0;
+  background: #2E2E40;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.foot-records .foot-top img {
+  width: 20px;
+  margin-top: 2px;
 }
